@@ -1,0 +1,10 @@
+<div class="outer-wrapper">
+<h3>Parent component</h3>
+{{messagefromchileViaViewChid}}
+<div>{{messagefromchild}}</div>
+<div>Via BehaviorSubject: {{ sharedMessage}}</div>
+
+
+<app-child-component content = {{content}} (emitEvent)= "reciveMessage($event)"></app-child-component>
+</div>
+

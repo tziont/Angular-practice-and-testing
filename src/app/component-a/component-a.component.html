@@ -1,0 +1,7 @@
+<div class="outer-wrapper">
+  <h3>component-a</h3>
+  <span>let's share this input text</span>
+  <div> <input type="text" #inputMessage [(ngModel)]= "inputmodel" /><button (click)= "changeMessage()">Share</button></div>
+  
+  Via BehaviorSubject: {{ sharedMessage}}
+</div>

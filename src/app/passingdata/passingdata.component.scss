@@ -1,0 +1,11 @@
+.outer-wrapper{
+    display: flex;
+    .a-b-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between
+    }
+    .parent{
+        align-self: stretch;
+    }
+}
